@@ -1,0 +1,482 @@
+body {
+width: 1488px;
+height: 1430px;
+background-color:#E5E5E5;
+}
+
+/*BANNER 1 */
+
+.banner1 {
+width: 1440px;
+height: 72px;
+gap: 10px;
+background: #0B2239;
+display: flex;
+margin: 228px 24px 0px 24px;
+}
+
+.content_b1{
+color: #FFFFFF;
+width: 822px;
+height: 40px;
+margin: 16px 0px 16px 120px;
+font-size: 13px;
+line-height: 20px;
+text-align: left;
+align-items: center;
+}
+
+.link_b1{
+display: flex;
+width: 106px;
+margin: 18px 0px 18px 0px;
+height: 36px;
+justify-content: center;
+align-items: center;
+color: #4AD295;
+}
+
+.btn_b1{
+margin: 18px 0 18px 20px;
+padding: 8px 10px;
+gap: 10px;
+width: 130px;
+height: 36px;
+background: #4AD295;
+color: #FFFFFF;
+border-radius: 2px;
+align-items: center;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+}
+
+/*BANNER 2 */
+.banner2 {
+margin: 24px 24px 0 24px; 
+background: #2B2627;
+height: 52px;
+width: 1440px;
+left: 0px;
+top: 96px;
+
+
+
+
+display: flex;
+}
+
+.img1_ban_2_ya_hz {
+height: 16px;
+width: 16px;
+left: 0px;
+margin: 18px 0 18px 345px;
+background: url (CURSOR/HW_3/img/image 1.svg);   
+}
+
+.content_b2 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+width: 789px;
+height: 20px;
+margin: 16px 0 16px 8px;
+color:#FFFFFF;
+}
+
+.img2_ban_2_X {
+width: 16px;
+height: 16px;
+background: url (CURSOR/HW_3/img/image 2.svg);
+margin: 18px 345px 18px 20px;
+}
+
+.link_content_b2{
+color:#FFFFFF;
+}
+
+/*BANNER 3 */
+.banner3{
+height: 72px;
+width: 580px;
+left: 0px;
+top: 0px;
+border-radius: 16px;
+padding: 16px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+background: white;
+margin: 72px 0 36px 24Px;
+}
+
+.img_ban_3{
+margin: 18px 0 18px 16px ;
+}
+
+.content_b3{
+margin: 16px 0 16px 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #0D0C22;
+}
+
+.content_b3 a{
+color: #EA4C89;
+}
+
+.button1_b3{
+background-color: rgba(13, 12, 34, 0.05);
+width: 63px;
+height: 28px;
+border-radius: 8px;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+margin: 22px 0 22px 10px;
+}
+
+.button2_b3{
+border: none;
+width: 82px;
+height: 28px;
+border-radius: 8px;
+background-color: #EA4C89;
+margin: 22px 0 22px 10px;
+color: #FFFFFF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+}
+
+/*BANNER 4 */
+.banner4{
+height: 64px;
+width: 580px;
+left: 0px;
+top: 96px;
+border-radius: 10px;
+padding: 12px 16px 12px 16px;
+display: flex;
+background: #26262B;
+margin: 24px 0 72px 24px;
+box-shadow: 0px 0px 1px 0px #6060601A;
+box-shadow: 0px 12px 24px -6px #60606026;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 10px;
+}
+
+.content_b4{
+width: 469px;
+height: 40px;
+font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #FFFFFF;
+margin: 12px 0 12px 16px;
+}
+
+.content_b4 a{
+color: #E6842E;
+}
+
+.button_b4{
+background-color: #FFFFFF;
+width: 49px;
+height: 28px;
+border-radius: 8px;
+border: none;
+margin: 18px 0 18px 10px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #0D0C22;
+}
+
+/*BANNER 5-6 */
+.block-5-6-banner{
+display: flex;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 760px;
+height: 206px;
+margin: 72px 680px 72px 24px;
+}
+
+.banner5{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+width: 360px;
+height: 206px;
+background: rgba(28, 37, 64, 0.95);
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 6px;
+}
+
+
+.content_b5{
+width: 312px;
+height: 80px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.content_b5 a{
+color:white
+}
+
+.button_block_b5{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: 312px;
+height: 32px;
+}
+
+.text_b5{
+width: 160px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.button_b5{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px;
+gap: 10px;
+width: 85px;
+height: 32px;
+background: #09B3AF;
+border: none;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+font-family: 'Roboto';
+font-style: normal;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.banner6{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+width: 360px;
+height: 170px;
+background: #FFFFFF;
+box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+border-radius: 16px;
+}
+
+.content_b6{
+width: 328px;
+height: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #687F8C;
+}
+
+.button_block_b6{
+display: flex; 
+padding: 0px;
+gap: 8px;
+width: 328px;
+height: 32px;
+}
+
+.button1_Manage_cookies{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+width: 160px;
+height: 32px;
+background: #EAF0F4;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #687F8C;
+}
+
+.button2_Accept_all{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+width: 160px;
+height: 32px;
+background: #40C1A7;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*BANNER 7-8 */
+
+.block-7-8-banner{
+display: flex;
+width: 680px;
+height: 260px;
+margin-left: 24px;
+margin-bottom: 50px;
+margin-top: 72px;
+}
+
+.banner7{
+width: 320px;
+height: 260px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+box-shadow: 0px 8px 32px rgb(10 3 89 / 10%);
+border-radius: 20px;
+}
+
+.title_b7{
+margin: 12px 108px 0 108px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 48px;
+text-align: center;
+color: #15295A;
+}
+
+.content_b7{
+margin: 0 32px 32px 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #15295A;
+}
+
+.button_Accept_b7{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 32px;
+gap: 10px;
+width: 121px;
+height: 44px;
+background: #4A7EFF;
+border-radius: 43px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+border:none;
+margin: 0 99px 32px 99px;
+}
+
+.banner8{
+width: 320px;
+height: 137px;
+background-color: #FFFFFF;
+box-shadow: 0px 8px 32px rgb(10 3 89 / 10%);
+border-radius: 4px;
+margin: 0px 0px 0px 40px;
+}
+
+.content_b8{
+width: 288px;
+height: 60px;
+margin: 16px 16px 12px 16px;
+color: #000000;
+font-style: normal;
+font-family:sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: left;
+}
+
+.button_block_b8{
+display: flex;
+}
+
+.link_b8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 16px;
+    height: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_b8 {
+border-radius: 4px;
+background-color: #6666FF;
+width: 64px;
+height: 33px;
+color: #FFFFFF;
+margin: 0px 0px 0px 129px;
+border: none;
+}
